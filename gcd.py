@@ -1,35 +1,33 @@
 """
-	Finding the greatest common divisor
+    Finding the greatest common divisor
 """
 
 
-# Using recursion
-def gcd_recursive(a, b):
-	if b == 0:
-		return a
-	return gcd_recursive(b, a % b)
+def gcd_recursive(num_1, num_2):
+    """Using recursion"""
+    if num_2 == 0:
+        return num_1
+    return gcd_recursive(num_2, num_1 % num_2)
 
 
-# Using loops
-def gcd_loops(a, b):
-	smaller = a
-	gcd = 1
+def gcd_loops(num_1, num_2):
+    """Using loops"""
+    smaller = num_1
+    gcd = 1
 
-	if b > a:
-		smaller = b
+    if num_2 > num_1:
+        smaller = num_2
 
-	for i in range(1,smaller + 1):
-		if (a % i == 0) and (b % i == 0):
-			gcd = i
+    for i in range(1, smaller + 1):
+        if (num_1 % i == 0) and (num_2 % i == 0):
+            gcd = i
 
-	return gcd
+    return gcd
 
 
-# Using the Euclidean algorithm
-def gcd_euclidean(a, b):
-	while b:
-		temp = a
-		a = b
-		b = temp % b
+def gcd_euclidean(num_1, num_2):
+    """Using the Euclidean algorithm"""
+    while num_2:
+        num_1, num_2 = num_2, num_1 % num_2
 
-	return a
+    return num_1
