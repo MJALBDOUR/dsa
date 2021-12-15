@@ -9,7 +9,7 @@ Data structures &amp; Algorithms questions mainly solved with Python.
 
 ### Cycle
 ![the cycle](giphy.gif?fit=crop)
-* 2+ dsa questions/day.
+* 2+ dsa problems/day.
 * Use *leetcode* or *codesignal* to test solutions.
 * Revise - optimize - think differently.
 * Organize - lint - slightly document then push here.
