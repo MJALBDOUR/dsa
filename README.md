@@ -8,6 +8,7 @@ Data structures &amp; Algorithms questions mainly solved with Python.
 * Nail Interviews.
 
 ### Cycle
+![the cycle](giphy.gif?fit=crop)
 * 2+ dsa questions/day.
 * Use *leetcode* or *codesignal* to test solutions.
 * Revise - optimize - think differently.
@@ -15,4 +16,4 @@ Data structures &amp; Algorithms questions mainly solved with Python.
 * Gradually increase difficulty.
 
 
-~*daily commits*~
+*daily commits*
