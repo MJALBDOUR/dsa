@@ -15,7 +15,7 @@ def best_time_to_buy_and_sell_stock(prices):
     """Single pass O(N)"""
     max_profit = 0
     min_price = 10 ** 4 + 1
-    for _, price in enumerate(prices):
+    for price in prices:
         if min_price > price:
             min_price = price
         elif price - min_price > max_profit:
